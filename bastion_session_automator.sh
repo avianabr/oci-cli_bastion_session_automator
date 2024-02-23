@@ -1,6 +1,6 @@
 private_key_file=~/.ssh/id_rsa #Add Your Private Key File
 public_key=$(cat ~/.ssh/id_rsa.pub) #Add your matching Public Key File
-bastion_ocid="ocid1.bastion.oc1.iad.xxxxx" #Add your Bastion OCID
+bastion_ocid="ocid1.bastion.oc1.sa-saopaulo-1.amaaaaaa6g6dsryafjrgu74uz3rlaibcsz56vynrxqdazr2wicwex4vam6ta" #Add your Bastion OCID
 session_ttl=3600
 
 #optional_port_forwarding=RANDOM_LOCAL_PORT:OCI_PRIVATE_IP:OCI_PORT_NUMBER
